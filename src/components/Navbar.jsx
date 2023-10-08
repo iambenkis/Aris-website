@@ -8,7 +8,7 @@ const Navbar = () => {
     { name: 'contact', href: '' },
   ]
   return (
-    <nav className="w-full bg-red-200/25 flex justify-between px-[5rem] py-5">
+    <nav className="w-full fixed top-0 left-0 flex justify-between px-[5rem] py-5">
       <a
         href="/"
         className="w-full text-2xl flex items-center text-blue-900 font-bold flex-row"
