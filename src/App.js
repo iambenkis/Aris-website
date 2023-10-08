@@ -1,9 +1,11 @@
 import Navbar from './components/Navbar'
+import Home from './components/Home'
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-neutral-100">
       <Navbar />
+      <Home />
     </div>
   )
 }
