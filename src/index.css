@@ -17,6 +17,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::-webkit-scrollbar {
+  width: 7px; /* Set the width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb (the draggable part) for the body element */
+body::-webkit-scrollbar-thumb {
+  background: #001a24; /* Background color of the thumb */
+  border-radius: 5px; /* Rounded corners */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
