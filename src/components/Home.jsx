@@ -15,7 +15,7 @@ const Home = () => {
               </button>
             </a>
             <a href="/" className="ml-4">
-              <button className="border text-blue-900 text-sm uppercase px-5 py-2 rounded-full mt-5 hover:bg-gradient-to-r from-purple-500 to-pink-500">
+              <button className="border border-[1px] border-gray-300 text-blue-900 text-sm uppercase px-5 py-2 rounded-full mt-5 hover:bg-gradient-to-r from-purple-500 to-pink-500">
                 Contactez-nous
               </button>
             </a>
