@@ -2,7 +2,7 @@ import HomeImage from '../assets/home.png'
 
 const Home = () => {
   return (
-    <div className="w-full h-screen pt-10">
+    <div className="w-full h-screen pt-20">
       <div className="flex w-full justify-between items-center px-[10rem]">
         <div>
           <h1 className="text-[2.7rem] font-[RegularNohemi] font-medium text-blue-900 leading-tight">
