@@ -2,6 +2,8 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Why from './components/Why'
 import Footer from './components/Footer'
+import Insight from './components/Insight'
+import Testimony from './components/Testimony'
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Home />
       <Why />
+      <Insight />
+      <Testimony />
       <Footer />
     </div>
   )
