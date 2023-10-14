@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="w-full   pb-20">
         <div className="w-full flex text-gray-400 font-link font-medium pt-5 justify-between border-t-[1px] border-gray-400/25">
-          <p className="">© 2021 - Todos los derechos reservados</p>
+          <p className="">© 2023 COTEKI. All rights reserved.</p>
           <p>Privacy Policy Terms & Conditions</p>
         </div>
       </div>
