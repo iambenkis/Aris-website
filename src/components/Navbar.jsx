@@ -2,7 +2,7 @@ import { MdElectricalServices } from 'react-icons/md'
 
 const Navbar = () => {
   const links = [
-    { name: 'solutions', href: '' },
+    { name: 'solutions', href: '/solutions' },
     { name: 'services', href: '' },
     { name: 'A propos', href: '' },
     { name: 'contact', href: '' },
