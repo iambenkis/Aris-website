@@ -9,40 +9,41 @@ import ElecImage from '../assets/elec.png'
 import MechaImage from '../assets/mechanic.png'
 import TelecomImage from '../assets/telecom.png'
 
-const Insight = () => {
-  const victrines = [
-    {
-      title: 'Installation domestique et industrielle.',
-      description: `L'installation d'énergies renouvelables domestiques et
+export const victrines = [
+  {
+    title: 'Installation domestique et industrielle.',
+    description: `L'installation d'énergies renouvelables domestiques et
               industrielles, telle que le solaire et l'éolien, est essentielle
               pour un avenir durable. Le dimensionnement, l'installation, le
               monitoring et la maintenance réduisent l'empreinte carbone, tout
               en nécessitant une gestion experte des ressources et une
               efficacité énergétique maximale.`,
-      image: ElecImage,
-    },
-    {
-      title:
-        'Savoir-faire en Mécanique: Soudure, Ajustage et Conception de Pointe',
-      description: `La mécanique est un domaine complexe impliquant la soudure, 
+    image: ElecImage,
+  },
+  {
+    title:
+      'Savoir-faire en Mécanique: Soudure, Ajustage et Conception de Pointe',
+    description: `La mécanique est un domaine complexe impliquant la soudure, 
       l'ajustage et la conception de moteurs diesel. Cette discipline exige 
       une expertise en ingénierie pour garantir la performance, la fiabilité et 
       l'efficacité énergétique des moteurs, ainsi que leur maintenance et réparation précises.`,
-      image: MechaImage,
-    },
-    {
-      title: 'Optimisation des Performances en Télécommunications',
-      description: `Dans le secteur des télécommunications, la programmation des 
+    image: MechaImage,
+  },
+  {
+    title: 'Optimisation des Performances en Télécommunications',
+    description: `Dans le secteur des télécommunications, la programmation des 
       produits Victron, des batteries lithium et des antennes réseau est cruciale. 
       Cette programmation précise garantit une alimentation fiable, 
       une longue autonomie et une connectivité stable, contribuant ainsi à 
       l'efficacité et à la fiabilité des réseaux de communication.`,
-      image: TelecomImage,
-    },
-  ]
-  // max-w-[50rem]
+    image: TelecomImage,
+  },
+]
 
-  const isOdd = (num) => num % 2
+export const isOdd = (num) => num % 2
+
+const Insight = () => {
+  // max-w-[50rem]
 
   return (
     <div className="px-40 py-20 z-0">
@@ -64,7 +65,7 @@ const Insight = () => {
               <Typography color="gray" className="mb-8 font-normal font-pop">
                 {victrine.description}
               </Typography>
-              <a href="#" className="inline-block">
+              <a href="/solutions" className="inline-block">
                 <Button
                   variant="text"
                   className="flex items-center gap-2 border-[1px] rounded-full"
