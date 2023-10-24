@@ -69,3 +69,39 @@ code {
 .animate-fade-in {
   animation: fadeIn 1s;
 }
+
+.stroke-text {
+  font-size: 130px;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(-45deg, #eeaa52, #e73c6f, #c20a57, #e93903f8);
+  background-size: 200% 200%;
+  -webkit-text-stroke: 2px transparent;
+  -webkit-background-clip: text;
+}
+
+.work:hover h3 {
+  font-size: 130px;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(-45deg, #2407ca, #1d0299, #4da5b1, #080bcaf8);
+  background-size: 200% 200%;
+  -webkit-text-stroke: 2px transparent;
+  -webkit-background-clip: text;
+}
+
+.work:hover {
+  background-color: #fff;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
