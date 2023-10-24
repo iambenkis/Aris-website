@@ -13,6 +13,27 @@ import TelecomImage from '../assets/telecom.png'
 import { victrines, isOdd } from '../components/Insight'
 import React, { useState } from 'react'
 
+export const SectionFooter = () => (
+  <div className="mt-40 mb-5">
+    <p className="mb-2 text-center text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
+      Avec Coteki, l'excellence devient la norme, la satisfaction devient la
+      certitude.
+    </p>
+    <div className="flex items-center justify-center">
+      <a href="/">
+        <button className="bg-blue-900 text-white text-sm uppercase px-5 py-2 rounded-full mt-5 hover:bg-gradient-to-r from-purple-500 to-pink-500">
+          Nos Services
+        </button>
+      </a>
+      <a href="/" className="ml-4">
+        <button className="border border-[1px] border-gray-300 text-blue-900 text-sm uppercase px-5 py-2 rounded-full mt-5 hover:text-white hover:bg-gradient-to-r from-purple-500 to-pink-500">
+          Contactez-nous
+        </button>
+      </a>
+    </div>
+  </div>
+)
+
 const Solutions = () => {
   const [scrollPercentage, setScrollPercentage] = useState(0)
 
@@ -87,10 +108,10 @@ const Solutions = () => {
             </div>
           </CardHeader>
         </Card>
-        <div className="cursor-pointer w-[47%] pb-20 text-justify flex flex-col ml-10 font-link">
+        <div className="cursor-pointer w-[47%] pb-20 pt-10  text-justify flex flex-col ml-10 font-link">
           {victrines.map((victrine, index) => (
             <Card
-              className={`w-full last-of-type:pb-40 flex-row-reverse border-none shadow-none mb-20`}
+              className={`w-full last-of-type:pb-40 bg-gray-100 mt- flex-row-reverse border-none shadow-none mb-20`}
             >
               <CardBody className="flex flex-col py-10  justify-center border-none">
                 <Typography
@@ -108,24 +129,7 @@ const Solutions = () => {
           ))}
         </div>
       </div>
-      <div className="mt-10">
-        <p className="mb-2 text-center text-blue-900 font-[RegularNohemi] font-medium  text-5xl">
-          Avec Coteki, l'excellence devient la norme, la satisfaction devient la
-          certitude.
-        </p>
-        <div className="flex items-center justify-center">
-          <a href="/">
-            <button className="bg-blue-900 text-white text-sm uppercase px-5 py-2 rounded-full mt-5 hover:bg-gradient-to-r from-purple-500 to-pink-500">
-              Nos Services
-            </button>
-          </a>
-          <a href="/" className="ml-4">
-            <button className="border border-[1px] border-gray-300 text-blue-900 text-sm uppercase px-5 py-2 rounded-full mt-5 hover:text-white hover:bg-gradient-to-r from-purple-500 to-pink-500">
-              Contactez-nous
-            </button>
-          </a>
-        </div>
-      </div>
+      <SectionFooter />
     </div>
   )
 }
