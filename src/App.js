@@ -7,14 +7,16 @@ import Footer from './components/Footer'
 import Insight from './components/Insight'
 import Testimony from './components/Testimony'
 import Solutions from './pages/Solutions'
+import Services from './pages/Services'
 
 function App() {
   return (
     <Router>
-      <div className="bg-neutral-100">
+      <div className="bg-gray-100">
         <Navbar />
         <Routes>
           <Route path="/solutions" element={<Solutions />} />
+          <Route path="/services" element={<Services />} />
           <Route
             path="/"
             element={
