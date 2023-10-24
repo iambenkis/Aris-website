@@ -50,7 +50,7 @@ const Insight = () => {
       <div>
         {victrines.map((victrine, index) => (
           <Card
-            className={`w-full ${
+            className={`bg-gray-100 w-full ${
               isOdd(index) ? 'flex-row-reverse' : 'flex-row'
             }   border-none shadow-none mb-20`}
           >
@@ -68,7 +68,7 @@ const Insight = () => {
               <a href="/solutions" className="inline-block">
                 <Button
                   variant="text"
-                  className="flex items-center gap-2 border-[1px] rounded-full"
+                  className="flex items-center gap-2 border-[1px] border-gray-800/25 rounded-full"
                 >
                   Learn More
                   <svg
