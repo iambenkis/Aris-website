@@ -48,8 +48,6 @@ After you're finished please remove all the comments and instructions!!
 
 > COTEKI is a leading provider of comprehensive and innovative infrastructure solutions, specializing in electrical installations, mechanical engineering, and cutting-edge telecommunications services. With an unwavering commitment to excellence and a focus on delivering sustainable, high-quality results, we cater to diverse industrial, commercial, and residential needs.
 
-**[your_project__name]** is a...
-
 ## 🛠 Built With <a name="built-with"></a>
 
 <details>
@@ -76,9 +74,7 @@ After you're finished please remove all the comments and instructions!!
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project
+## 💻 Getting Started <a name="getting-started"></a> 
 
 To get a local copy up and running, follow these steps.
 
@@ -122,8 +118,6 @@ To run the project, execute the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Integrate a chat]** 
 
