@@ -145,7 +145,7 @@ If you like this project, please give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [cypris](cypris.ai) corporation for their Template ⭐
+I would like to thank [cypris](https://www.cypris.ai/) corporation for their Template ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
