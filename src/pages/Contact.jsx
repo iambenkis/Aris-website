@@ -41,7 +41,7 @@ const Contact = () => {
           id=""
           cols="30"
           rows="10"
-          className=" resize-none border-blue-500 border-2 w-full focus:outline-none text-l p-6"
+          className=" resize-none border-blue-900 border-2 w-full focus:outline-none text-l p-6"
           placeholder="votre message..."
         ></textarea>
         <button className=" font-bold text-white py-4 rounded-lg bg-blue-900 mt-4 w-[150px] mx-auto">
