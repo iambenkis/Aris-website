@@ -5,7 +5,7 @@ const Navbar = () => {
     { name: 'solutions', href: '/solutions' },
     { name: 'services', href: '/services' },
     { name: 'A propos', href: '' },
-    { name: 'contact', href: '' },
+    { name: 'contact', href: '/contact' },
   ]
   return (
     <nav className="w-full bg-neutral-100/75 backdrop-blur-md fixed top-0 left-0 flex justify-between px-[5rem] py-5 z-10">

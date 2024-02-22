@@ -8,6 +8,7 @@ import Insight from './components/Insight'
 import Testimony from './components/Testimony'
 import Solutions from './pages/Solutions'
 import Services from './pages/Services'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
           <Route
             path="/"
             element={
