@@ -50,17 +50,29 @@ const Contact = () => {
           Envoyer
         </button>
       </form>
-      <div className="w-full flex gap-4">
-        <a href="/" className="h-[3rem] w-[3rem]">
+      <div className="w-full flex gap-4 items-center justify-center pb-6">
+        <a
+          href="/"
+          className="h-[3rem] w-[3rem] rounded-[1.5rem] border border-blue-900 text-blue-900 flex items-center justify-center"
+        >
           <FaPhoneAlt />
         </a>
-        <a href="/" className="h-[3rem] w-[3rem]">
+        <a
+          href="/"
+          className="h-[3rem] w-[3rem] rounded-[1.5rem] border border-blue-900 text-blue-900 flex items-center justify-center"
+        >
           <FaLinkedin />
         </a>
-        <a href="/" className="h-[3rem] w-[3rem]">
+        <a
+          href="/"
+          className="h-[3rem] w-[3rem] rounded-[1.5rem] border border-blue-900 text-blue-900 flex items-center justify-center"
+        >
           <FaFacebookF />
         </a>
-        <a href="/" className="h-[3rem] w-[3rem]">
+        <a
+          href="/"
+          className="h-[3rem] w-[3rem] rounded-[1.5rem] border border-blue-900 text-blue-900 flex items-center justify-center text-[1.5rem]"
+        >
           <FaWhatsapp />
         </a>
       </div>
