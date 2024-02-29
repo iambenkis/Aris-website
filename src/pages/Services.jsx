@@ -71,7 +71,7 @@ const Services = () => {
             performances de haute qualité et une satisfaction client
             exceptionnelle.
           </p>
-          <a href="#" className="inline-block">
+          <a href="/" className="inline-block">
             <Button
               variant="text"
               className="flex items-center gap-2 border-[1px] rounded-full bg-blue-900 text-white hover:bg-white hover:text-blue-900 hover:border-blue-900"
@@ -103,7 +103,7 @@ const Services = () => {
           <div>
             <div className="w-full flex justify-center items-center ">
               <div className="w-[45%] mr-5">
-                <div className="flex flex-col px-10 py-10 border-[1px] border-gray-800/25 flex mr-1 mb-5 rounded-xl">
+                <div className=" flex-col px-10 py-10 border-[1px] border-gray-800/25 flex mr-1 mb-5 rounded-xl">
                   <p className="text-xl"> ⏲</p>
                   <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
                     SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN ONE
@@ -125,7 +125,7 @@ const Services = () => {
                     track, then repeat—all in one platform.
                   </p>
                 </div>
-                <div className="flex flex-col px-10 py-10 border-[1px] border-gray-800/25 flex mr-1 mb-5 rounded-xl">
+                <div className=" flex-col px-10 py-10 border-[1px] border-gray-800/25 flex mr-1 mb-5 rounded-xl">
                   <p className="text-xl"> ⏲</p>
                   <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
                     SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN ONE
@@ -149,7 +149,7 @@ const Services = () => {
                 </div>
               </div>
 
-              <div className=" w-[45%] px-10 flex flex-col  py-10 border-[1px] border-gray-800/25 flex mr-1 mb-5 rounded-xl">
+              <div className=" w-[45%] px-10 flex flex-col  py-10 border-[1px] border-gray-800/25  mr-1 mb-5 rounded-xl">
                 <p className="text-xl"> ⏲</p>
                 <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
                   SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN ONE

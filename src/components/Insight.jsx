@@ -8,7 +8,7 @@ import {
 import ElecImage from '../assets/elec.png'
 import MechaImage from '../assets/mechanic.png'
 import TelecomImage from '../assets/telecom.png'
-import { Flip, Hinge, JackInTheBox } from 'react-awesome-reveal'
+import { JackInTheBox } from 'react-awesome-reveal'
 
 export const victrines = [
   {
