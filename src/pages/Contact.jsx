@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
+import { FaLinkedin, FaFacebookF, FaWhatsapp } from 'react-icons/fa6'
 
 const Contact = () => {
   return (
@@ -54,13 +55,13 @@ const Contact = () => {
           <FaPhoneAlt />
         </a>
         <a href="/" className="h-[3rem] w-[3rem]">
-          <FaPhoneAlt />
+          <FaLinkedin />
         </a>
         <a href="/" className="h-[3rem] w-[3rem]">
-          <FaPhoneAlt />
+          <FaFacebookF />
         </a>
         <a href="/" className="h-[3rem] w-[3rem]">
-          <FaPhoneAlt />
+          <FaWhatsapp />
         </a>
       </div>
     </div>
