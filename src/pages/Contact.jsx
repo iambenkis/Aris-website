@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPhoneAlt } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -48,6 +49,20 @@ const Contact = () => {
           Envoyer
         </button>
       </form>
+      <div className="w-full flex gap-4">
+        <a href="/" className="h-[3rem] w-[3rem]">
+          <FaPhoneAlt />
+        </a>
+        <a href="/" className="h-[3rem] w-[3rem]">
+          <FaPhoneAlt />
+        </a>
+        <a href="/" className="h-[3rem] w-[3rem]">
+          <FaPhoneAlt />
+        </a>
+        <a href="/" className="h-[3rem] w-[3rem]">
+          <FaPhoneAlt />
+        </a>
+      </div>
     </div>
   )
 }
