@@ -83,7 +83,7 @@ const Solutions = () => {
 
       <div
         className="relative  mt-40 h-screen flex overflow-y-scroll hide-scrollbar  left-0 bg-neutral-300"
-        // onScroll={handleScroll}
+        onScroll={handleScroll}
       >
         <Card
           className={`sticky top-10 w-[40%] h-[60%] flex-row border-none shadow-none mb-20`}
