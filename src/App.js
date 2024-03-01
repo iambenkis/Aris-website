@@ -9,6 +9,7 @@ import Testimony from './components/Testimony'
 import Solutions from './pages/Solutions'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
+import About from './pages/About'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/a_propos" element={<About />} />
           <Route
             path="/"
             element={

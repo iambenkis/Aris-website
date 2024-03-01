@@ -4,7 +4,7 @@ const Navbar = () => {
   const links = [
     { name: 'solutions', href: '/solutions' },
     { name: 'services', href: '/services' },
-    { name: 'A propos', href: '' },
+    { name: 'A propos', href: '/a_propos' },
     { name: 'contact', href: '/contact' },
   ]
   return (
