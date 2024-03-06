@@ -1,5 +1,9 @@
 import Carousel from './Carousel'
 
+/*
+
+//////// COMMENT START ICON FOR FUTURE USAGE
+
 function StarIcon() {
   return (
     <svg
@@ -16,6 +20,7 @@ function StarIcon() {
     </svg>
   )
 }
+*/
 
 const Testimony = () => {
   const items = [

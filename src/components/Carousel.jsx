@@ -25,10 +25,10 @@ function StarIcon() {
 }
 
 const Carousel = ({ items, autoSlide = false, autoSlideInterval = 3000 }) => {
-  const [activeIndex, setActiveIndex] = useState(0)
+  // const [activeIndex, setActiveIndex] = useState(0)
   const [curr, setCurr] = useState(0)
 
-  const prev = () => setCurr(curr === 0 ? items.length - 1 : curr - 1)
+  // const prev = () => setCurr(curr === 0 ? items.length - 1 : curr - 1)
 
   const next = () => setCurr(curr === items.length - 1 ? 0 : curr + 1)
 
