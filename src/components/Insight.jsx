@@ -8,7 +8,7 @@ import {
 import ElecImage from '../assets/elec.png'
 import MechaImage from '../assets/mechanic.png'
 import TelecomImage from '../assets/telecom.png'
-import { JackInTheBox } from 'react-awesome-reveal'
+import { JackInTheBox, Slide } from 'react-awesome-reveal'
 
 export const victrines = [
   {
@@ -47,13 +47,13 @@ const Insight = () => {
   // max-w-[50rem]
 
   return (
-    <div className="px-40 py-20 z-0">
+    <div className="px-5 lg:px-40 py-20 z-0">
       <div>
         {victrines.map((victrine, index) => (
-          <JackInTheBox>
+          <Slide>
             <Card
-              className={`bg-gray-100 w-full ${
-                isOdd(index) ? 'flex-row-reverse' : 'flex-row'
+              className={`bg-gray-100 w-full grid columns-1 lg:flex ${
+                isOdd(index) ? 'lg:flex-row-reverse' : 'lg:flex-row'
               }   border-none shadow-none mb-20`}
             >
               <CardBody className="flex flex-col py-20 justify-center border-none">
@@ -93,7 +93,7 @@ const Insight = () => {
               <CardHeader
                 shadow={false}
                 floated={false}
-                className="m-0 w-[45%] relative bg-gray-800/25 shadow-inner shadow-inner-lg border-[1px] shrink-0"
+                className="m-0 w-full h-[80vw] lg:w-[45%] lg:h-full relative bg-gray-800/25 shadow-inner shadow-inner-lg border-[1px] shrink-0"
               >
                 <div className="w-full h-full  py-20">
                   <img
@@ -104,7 +104,7 @@ const Insight = () => {
                 </div>
               </CardHeader>
             </Card>
-          </JackInTheBox>
+          </Slide>
         ))}
       </div>
     </div>

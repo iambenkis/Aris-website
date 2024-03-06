@@ -4,7 +4,7 @@ import HomeImage from '../assets/home.png'
 const Home = () => {
   return (
     <div className="w-full h-screen flex items-center pt-[5rem]">
-      <div className="flex w-full justify-between items-center px-[10rem]">
+      <div className="grid w-full columns-1 md:flex md:justify-between md:items-center px-[10rem]">
         <Slide duration={1000}>
           <div>
             <h1 className="text-[2.7rem] font-[RegularNohemi] font-medium text-blue-900 leading-tight">

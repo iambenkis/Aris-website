@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e99c943c.css",
+    "main.js": "/static/js/main.a7b4fa89.js",
+    "static/js/787.6732d383.chunk.js": "/static/js/787.6732d383.chunk.js",
+    "static/media/telecom.png": "/static/media/telecom.39ff81184b41283b7532.png",
+    "static/media/mechanic.png": "/static/media/mechanic.733b2bf04035f79ce92d.png",
+    "static/media/elec.png": "/static/media/elec.757895218ab7b496b370.png",
+    "static/media/home.png": "/static/media/home.cdf68b3d2757d8501fa4.png",
+    "static/media/Nohemi-Regular-BF6438cc579d934.woff": "/static/media/Nohemi-Regular-BF6438cc579d934.978e963b7c40be0644a4.woff",
+    "index.html": "/index.html",
+    "main.e99c943c.css.map": "/static/css/main.e99c943c.css.map",
+    "main.a7b4fa89.js.map": "/static/js/main.a7b4fa89.js.map",
+    "787.6732d383.chunk.js.map": "/static/js/787.6732d383.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e99c943c.css",
+    "static/js/main.a7b4fa89.js"
+  ]
+}
