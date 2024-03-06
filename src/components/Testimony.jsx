@@ -1,11 +1,8 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  Avatar,
-} from '@material-tailwind/react'
 import Carousel from './Carousel'
+
+/*
+
+//////// COMMENT START ICON FOR FUTURE USAGE
 
 function StarIcon() {
   return (
@@ -23,6 +20,7 @@ function StarIcon() {
     </svg>
   )
 }
+*/
 
 const Testimony = () => {
   const items = [
