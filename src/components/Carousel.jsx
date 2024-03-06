@@ -37,7 +37,7 @@ const Carousel = ({ items, autoSlide = false, autoSlideInterval = 3000 }) => {
     const slideInterval = setInterval(next, autoSlideInterval)
     console.log('slideInterval', slideInterval)
     return () => clearInterval(slideInterval)
-  }, [curr])
+  }, [curr, autoSlideInterval])
 
   return (
     <div className="flex w-full space-between overflow-hidden relative py-20">
