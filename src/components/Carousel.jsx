@@ -37,6 +37,7 @@ const Carousel = ({ items, autoSlide = false, autoSlideInterval = 3000 }) => {
     const slideInterval = setInterval(next, autoSlideInterval)
     console.log('slideInterval', slideInterval)
     return () => clearInterval(slideInterval)
+    // eslint-disable-next-line react-hooks/exhaustive-dep
   }, [curr, autoSlideInterval])
 
   return (
