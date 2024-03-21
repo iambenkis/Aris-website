@@ -56,7 +56,7 @@ const Insight = () => {
                 isOdd(index) ? 'lg:flex-row-reverse' : 'lg:flex-row'
               }   border-none shadow-none mb-20`}
             >
-              <CardBody className="flex flex-col py-20 justify-center border-none">
+              <CardBody className="flex flex-col justify-center border-none">
                 <Typography
                   variant="h4"
                   color="blue-gray"
@@ -93,15 +93,15 @@ const Insight = () => {
               <CardHeader
                 shadow={false}
                 floated={false}
-                className="m-0 w-full h-[80vw] lg:w-[45%] lg:h-full relative bg-gray-800/25 shadow-inner shadow-inner-lg border-[1px] shrink-0"
+                className="m-0 w-full h-[80vw] lg:w-[45%] lg:h-full  
+                bg-gray-800/25
+                 shadow-inner shadow-inner-lg border-[1px] shrink-0"
               >
-                <div className="w-full h-full  py-20">
-                  <img
-                    src={victrine.image}
-                    alt="card-1"
-                    className="absolute top-0 left-0 h-full w-full object-cover"
-                  />
-                </div>
+                <img
+                  src={victrine.image}
+                  alt="card-1"
+                  className=" h-full w-full object-cover"
+                />
               </CardHeader>
             </Card>
           </Slide>
