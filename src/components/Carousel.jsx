@@ -34,9 +34,13 @@ const Carousel = ({ items, autoSlide = false, autoSlideInterval = 3000 }) => {
 
   useEffect(() => {
     if (!autoSlide) return
+    // eslint-disable-next-line
     const slideInterval = setInterval(next, autoSlideInterval)
+    // eslint-disable-next-line
     console.log('slideInterval', slideInterval)
+    // eslint-disable-next-line
     return () => clearInterval(slideInterval)
+    // eslint-disable-next-line
   }, [curr, autoSlideInterval])
 
   return (
