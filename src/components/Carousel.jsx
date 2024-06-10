@@ -51,7 +51,7 @@ const Carousel = ({ items, autoSlide = false, autoSlideInterval = 3000 }) => {
           className="flex w-full transition-transform duration-1000 ease-out "
           style={{ transform: `translateX(-${curr * 100}%)` }}
         >
-          <div className="px-40 w-screen">
+          <div className="md:px-40 w-screen">
             <Card
               color="transparent"
               shadow={false}

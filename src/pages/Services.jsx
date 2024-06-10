@@ -24,8 +24,8 @@ const works = [
 
 const Services = () => {
   return (
-    <div className="py-40 px-40">
-      <div className="flex w-full relative">
+    <div className="py-20 px-3 md:py-40 md:px-40">
+      <div className="flex w-full flex-col md:flex-row relative">
         <div className="w-full ">
           <Slide>
             <h1 className="mb-2 text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
@@ -60,7 +60,7 @@ const Services = () => {
           </Slide>
         </div>
 
-        <div className="w-[60%] ml-2 text-justify">
+        <div className=" w-[90%] mt-4 md:mt-0 md:w-[60%] ml-2 text-justify">
           <Fade delay={1000}>
             <p className="mb-5">
               Avec Coteki, les entreprises atteignent l'excellence dans les
@@ -98,11 +98,11 @@ const Services = () => {
           <h2 className="mb-7 py-20 text-center text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
             Nos beneficiaires
           </h2>
-          <div className="pb-10">
+          <div className="pb-3 md:pb-10">
             <div>
-              <div className="w-full flex justify-center items-center ">
-                <div className="w-[45%] mr-5">
-                  <div className=" flex-col px-10 py-10 border-[1px] border-gray-800/25 flex mr-1 mb-5 rounded-xl">
+              <div className="w-full flex flex-col md:flex-row justify-center items-center ">
+                <div className="w-full md:w-[45%] md:mr-5">
+                  <div className=" flex-col px-10 py-10 border-[1px] border-gray-800/25 flex md:mr-1 mb-5 rounded-xl">
                     <p className="text-xl"> ⏲</p>
                     <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
                       SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN
@@ -124,7 +124,7 @@ const Services = () => {
                       track, then repeat—all in one platform.
                     </p>
                   </div>
-                  <div className=" flex-col px-10 py-10 border-[1px] border-gray-800/25 flex mr-1 mb-5 rounded-xl">
+                  <div className=" flex-col px-10 py-10 border-[1px] border-gray-800/25 flex md:mr-1 mb-5 rounded-xl">
                     <p className="text-xl"> ⏲</p>
                     <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
                       SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN
@@ -148,7 +148,7 @@ const Services = () => {
                   </div>
                 </div>
 
-                <div className=" w-[45%] px-10 flex flex-col  py-10 border-[1px] border-gray-800/25  mr-1 mb-5 rounded-xl">
+                <div className=" w-full md:w-[45%] px-10 flex flex-col  py-10 border-[1px] border-gray-800/25  mr-1 mb-5 rounded-xl">
                   <p className="text-xl"> ⏲</p>
                   <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
                     SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN ONE
@@ -179,7 +179,7 @@ const Services = () => {
         <h2 className="mb-7 pt-10 text-center text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
           Avec Coteki
         </h2>
-        <div className=" w-full grid grid-rows-2 px-40 grid-flow-col gap-4">
+        <div className=" w-full grid grid-cols-1 md:grid-rows-2 px-3 md:px-40 md:grid-flow-col gap-4">
           <Zoom duration={500}>
             <div className="transition ease-in-out delay-150 px-5 py-10 border-[1px] border-gray-800/25 flex mr-1 mb-5 rounded-xl hover:bg-white duration-300 hover:drop-shadow-xl">
               <p> ⏲</p>
@@ -219,15 +219,15 @@ const Services = () => {
         </div>
       </div>
       <div className="pt-20">
-        <div className="flex relative w-full justify-between">
-          <h2 className="w-[30%] mb-7 pt-10  text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
+        <div className="flex relative w-full justify-between flex-col md:flex-row">
+          <h2 className="w-full md:w-[30%] mb-7 pt-10  text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
             Comment Nous travaillons
           </h2>
-          <div className="w-[60%] mt-10">
+          <div className="w-full md:w-[60%] mt-3 md:mt-10">
             {works.map((work, index) => (
               <Slide>
-                <div className="work w-full mb-10 border-[1px]  border-gray-900/25 px-10 pt-5  flex justify-center items-center rounded-xl">
-                  <h3 className="text-8xl font-bold leading-4 font-[RegularNohemi] py-20 mr-20 stroke-text">
+                <div className="work w-full mb-10 border-[1px]  border-gray-900/25 px-10 pt-5  flex flex-row justify-center items-center rounded-xl">
+                  <h3 className="text-6xl text-gray-900/50 font-bold leading-4 font-[RegularNohemi] py-4 mr-4 md:py-20 md:mr-20 md:stroke-text">
                     {work.number}
                   </h3>
                   <p className="text-blue-900">{work.title}</p>

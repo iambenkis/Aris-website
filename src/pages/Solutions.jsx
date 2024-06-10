@@ -44,8 +44,8 @@ const Solutions = () => {
     setScrollPercentage(percentage.toFixed(2))
   }
   return (
-    <div className="py-40 px-40 ">
-      <div className="flex w-full relative">
+    <div className="py-40 px-4 md:px-40 ">
+      <div className="flex flex-col md:flex-row w-full relative">
         <h1 className="mb-2 text-blue-900 font-[RegularNohemi] font-medium  text-5xl">
           Optez pour Coteki, améliorez vos systèmes électriques.
         </h1>
@@ -80,13 +80,12 @@ const Solutions = () => {
           </a>
         </div>
       </div>
-
       <div
-        className="relative  mt-40 h-screen flex overflow-y-scroll hide-scrollbar  left-0 bg-neutral-300"
+        className="relative w-full  mt-4 md:mt-40 h-screen flex overflow-y-scroll hide-scrollbar  left-0 bg-neutral-300"
         onScroll={handleScroll}
       >
         <Card
-          className={`sticky top-10 w-[40%] h-[60%] flex-row border-none shadow-none mb-20`}
+          className={`hidden md:flex w-0 sticky top-10 md:w-[40%] h-[60%] flex-row border-none shadow-none md:mb-20`}
         >
           <CardHeader
             shadow={false}
@@ -109,16 +108,16 @@ const Solutions = () => {
             </div>
           </CardHeader>
         </Card>
-        <div className="cursor-pointer w-[47%] pb-20 pt-10  text-justify flex flex-col ml-10 font-link">
+        <div className="cursor-pointer md:w-[47%] pb-5 md:pb-20 md:pt-10  text-justify flex flex-col mx-2 md:ml-10 font-link">
           {victrines.map((victrine, index) => (
             <Card
-              className={`w-full last-of-type:pb-40 bg-gray-100 mt- flex-row-reverse border-none shadow-none mb-20`}
+              className={` md:w-full md:last-of-type:pb-40  flex-row-reverse border-none shadow-none mb-20`}
             >
               <CardBody className="flex flex-col py-10  justify-center border-none">
                 <Typography
                   variant="h4"
                   color="blue-gray"
-                  className="mb-2 text-blue-900 font-[RegularNohemi] font-medium  text-4xl"
+                  className="mb-2 text-blue-900 font-[RegularNohemi] font-medium text-xl md:text-4xl"
                 >
                   {victrine.title}
                 </Typography>

@@ -54,8 +54,8 @@ const Testimony = () => {
     },
   ]
   return (
-    <div className="px-40 pb-10 relative">
-      <h2 className="px-20 font-[RegularNohemi]  text-[2.4rem] text-blue-900 text-center font-medium">
+    <div className=" p-1 md:px-40 pb-10 relative">
+      <h2 className="md:px-20 font-[RegularNohemi]  text-[2.4rem] text-blue-900 text-center font-medium">
         Ce que les gens disent de nous
       </h2>
       <p className="font-link text-center font-normal font-pop">
