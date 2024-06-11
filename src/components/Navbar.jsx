@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { MdElectricalServices } from 'react-icons/md'
+import { MdClose, MdElectricalServices } from 'react-icons/md'
 
 const HamburgerMenu = ({ clickHandler, shown }) => {
   return (
@@ -25,6 +25,10 @@ const Navbar = () => {
     setLinksShown(false)
   }
 
+  const closeMenu = () => {
+    setLinksShown(false)
+  }
+
   const links = [
     { name: 'solutions', href: '/solutions' },
     { name: 'services', href: '/services' },
@@ -43,27 +47,37 @@ const Navbar = () => {
         <span>COTEKI</span>
       </a>
       <HamburgerMenu clickHandler={hamburgerClickHandler} shown={!linksShown} />
-      <ul
-        className={` flex-col ${
-          linksShown ? ' flex' : 'hidden'
-        } md:flex md:flex-row w-[50%] gap-3 md:justify-between px-4`}
+      <div
+        className={`items-start w-full justify-between px-2 
+        ${linksShown ? ' flex' : 'hidden'}
+        `}
       >
-        {links.map((link, index) => (
-          <li>
-            <a
-              href={`${link.href}`}
-              className={`text-blue-900 uppercase text-xs font-link ${
-                link.name === 'contact'
-                  ? 'bg-blue-900 text-white px-3 py-2 rounded-full border-[1px] border-red-900'
-                  : ''
-              }`}
-              onClick={linksClickHandler}
-            >
-              {link.name}
-            </a>
-          </li>
-        ))}
-      </ul>
+        <ul
+          className={`flex flex-col md:flex md:flex-row w-[50%] gap-3 md:justify-between px-4`}
+        >
+          {links.map((link, index) => (
+            <li>
+              <a
+                href={`${link.href}`}
+                className={`text-blue-900 uppercase text-xs font-link ${
+                  link.name === 'contact'
+                    ? 'bg-blue-900 text-white px-3 py-2 rounded-full border-[1px] border-red-900'
+                    : ''
+                }`}
+                onClick={linksClickHandler}
+              >
+                {link.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+        <button
+          className={`h-[2.5rem] w-[2.5rem] border-blue-900 border-2 text-blue-900 flex items-center justify-center`}
+          onClick={closeMenu}
+        >
+          <MdClose size={24} />
+        </button>
+      </div>
     </nav>
   )
 }
