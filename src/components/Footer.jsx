@@ -17,7 +17,7 @@ const Footer = () => {
           <MdElectricalServices />
           <span>COTEKI</span>
         </a>
-        <ul className="flex w-[30%] flex-col md:flex-row justify-between items-center ">
+        <ul className="flex w-[50%] md:w-[30%] flex-col md:flex-row justify-between items-center ">
           {links.map((link, index) => (
             <li className="">
               <a

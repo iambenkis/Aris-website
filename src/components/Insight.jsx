@@ -44,10 +44,8 @@ export const victrines = [
 export const isOdd = (num) => num % 2
 
 const Insight = () => {
-  // max-w-[50rem]
-
   return (
-    <div className="px-5 lg:px-40 py-20 z-0">
+    <div className=" lg:px-40 py-20 z-0">
       <div>
         {victrines.map((victrine, index) => (
           <Slide>
@@ -93,7 +91,7 @@ const Insight = () => {
               <CardHeader
                 shadow={false}
                 floated={false}
-                className="m-0 w-full h-[80vw] lg:w-[45%] lg:h-full  
+                className="m-0  ml-4 md:ml-0 w-[85%] md:w-full h-[80vw] lg:w-[45%] lg:h-full  
                 bg-gray-800/25
                  shadow-inner shadow-inner-lg border-[1px] shrink-0"
               >

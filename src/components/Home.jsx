@@ -3,7 +3,7 @@ import HomeImage from '../assets/home.png'
 
 const Home = () => {
   return (
-    <div className=" h-screen flex items-center pt-[5rem] mx-[-7rem] md:mx-0 w-full">
+    <div className=" h-screen flex items-center pt-[5rem] mx-[-7rem] md:mx-0 w-full ">
       <div className="grid w-full columns-1 md:flex md:justify-between md:items-center px-[10rem]">
         <Slide duration={1000}>
           <div>

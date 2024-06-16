@@ -48,8 +48,8 @@ const Navbar = () => {
       </a>
       <HamburgerMenu clickHandler={hamburgerClickHandler} shown={!linksShown} />
       <div
-        className={`items-start w-full justify-between px-2 
-        ${linksShown ? ' flex' : 'hidden'}
+        className={`items-start w-full justify-between md:justify-end px-2 
+        ${linksShown ? ' flex' : 'hidden md:flex'}
         `}
       >
         <ul
@@ -72,7 +72,7 @@ const Navbar = () => {
           ))}
         </ul>
         <button
-          className={`h-[2.5rem] w-[2.5rem] border-blue-900 border-2 text-blue-900 flex items-center justify-center`}
+          className={`h-[2.5rem] w-[2.5rem] border-blue-900 border-2 text-blue-900 flex items-center justify-center md:hidden`}
           onClick={closeMenu}
         >
           <MdClose size={24} />

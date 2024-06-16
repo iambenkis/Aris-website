@@ -12,7 +12,7 @@ const WhySection = () => {
         <Fade duration={2000} className="w-full">
           <div>
             <div className="grid columns-1  w-full gap-8 lg:flex lg:justify-between lg:items-center ">
-              <div className="w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
+              <div className="w-[90%] mx-auto md:w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
                 <h3 className="text-[1.5rem] font-[RegularNohemi] text-blue-900 font-medium">
                   100% Satisfaction
                 </h3>
@@ -23,7 +23,7 @@ const WhySection = () => {
                   eveniet harum accusantium, ratione soluta quidem r !
                 </p>
               </div>
-              <div className="w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
+              <div className="w-[90%] mx-auto md:w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
                 <h3 className="text-[1.5rem] font-[RegularNohemi] text-blue-900 font-medium">
                   100% Satisfaction
                 </h3>
@@ -34,7 +34,7 @@ const WhySection = () => {
                   eveniet harum accusantium, ratione soluta quidem r !
                 </p>
               </div>
-              <div className="w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
+              <div className="w-[90%] mx-auto md:w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
                 <h3 className="text-[1.5rem] font-[RegularNohemi] text-blue-900 font-medium">
                   100% Satisfaction
                 </h3>
