@@ -20,12 +20,12 @@ export const SectionFooter = () => (
         certitude.
       </p>
       <div className="flex items-center justify-center">
-        <a href="/">
+        <a href="/services">
           <button className="bg-blue-900 text-white text-sm uppercase px-5 py-2 rounded-full mt-5 hover:bg-gradient-to-r from-purple-500 to-pink-500">
             Nos Services
           </button>
         </a>
-        <a href="/" className="ml-4">
+        <a href="/contact" className="ml-4">
           <button className="border-[1px] border-gray-300 text-blue-900 text-sm uppercase px-5 py-2 rounded-full mt-5 hover:text-white hover:bg-gradient-to-r from-purple-500 to-pink-500">
             Contactez-nous
           </button>
@@ -56,7 +56,7 @@ const Solutions = () => {
             performances de haute qualité et une satisfaction client
             exceptionnelle.
           </p>
-          <a href="/" className="inline-block">
+          <a href="/contact" className="inline-block">
             <Button
               variant="text"
               className="flex items-center gap-2 border-[1px] rounded-full bg-blue-900 text-white hover:bg-white hover:text-blue-900 hover:border-blue-900"

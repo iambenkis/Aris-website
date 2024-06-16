@@ -68,7 +68,7 @@ const Services = () => {
               des performances de haute qualité et une satisfaction client
               exceptionnelle.
             </p>
-            <a href="/" className="inline-block">
+            <a href="/contact" className="inline-block">
               <Button
                 variant="text"
                 className="flex items-center gap-2 border-[1px] rounded-full bg-blue-900 text-white hover:bg-white hover:text-blue-900 hover:border-blue-900"
