@@ -139,8 +139,8 @@ const Services = () => {
                       Nous aidons les entreprises commerciales à maintenir des
                       opérations fluides avec des systèmes électriques et de
                       télécommunications fiables. Nos solutions sont conçues
-                      pour optimiser l\'efficacité et la performance, minimisant
-                      les temps d\'arrêt et maximisant la productivité.
+                      pour optimiser l'efficacité et la performance, minimisant
+                      les temps d'arrêt et maximisant la productivité.
                     </p>
                   </div>
                 </div>
@@ -157,10 +157,10 @@ const Services = () => {
                     {' '}
                     Nous offrons des solutions personnalisées pour les
                     propriétaires résidentiels, assurant la sécurité et
-                    l\'efficacité énergétique de vos installations électriques.
-                    Nos services couvrent l\'installation, la mise à niveau et
-                    la maintenance, garantissant un environnement domestique sûr
-                    et fonctionnel.
+                    l'efficacité énergétique de vos installations électriques.
+                    Nos services couvrent l'installation, la mise à niveau et la
+                    maintenance, garantissant un environnement domestique sûr et
+                    fonctionnel.
                   </p>
                 </div>
               </div>

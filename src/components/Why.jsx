@@ -19,7 +19,7 @@ const WhySection = () => {
                 <p className="text-[1rem] text-gray-500 mt-3">
                   Les projets électriques peuvent être complexes et
                   chronophages. COTEKI vous permet de répondre aux besoins
-                  simplifiés de vos projets d\'électricité grâce à une
+                  simplifiés de vos projets d'électricité grâce à une
                   planification et une exécution efficaces.
                 </p>
               </div>
@@ -28,9 +28,9 @@ const WhySection = () => {
                   Excellence dans l'orientation et la réalisation
                 </h3>
                 <p className="text-[1rem] text-gray-500 mt-3">
-                  Il est souvent difficile de garantir l\'excellence dans
-                  l\'orientation et la réalisation des projets. COTEKI assure
-                  l\'excellence dans l\'orientation, le dimensionnement et la
+                  Il est souvent difficile de garantir l'excellence dans
+                  l'orientation et la réalisation des projets. COTEKI assure
+                  l'excellence dans l'orientation, le dimensionnement et la
                   réalisation de vos projets, vous offrant des solutions
                   précises et de haute qualité.
                 </p>
