@@ -59,7 +59,7 @@ const Contact = () => {
       <div className="w-full flex gap-4 items-center justify-center pb-6">
         <Zoom duration={250}>
           <a
-            href="/"
+            href="tel:+243990867317"
             className="h-[3rem] w-[3rem] rounded-[1.5rem] border border-blue-900 text-blue-900 flex items-center justify-center"
           >
             <FaPhoneAlt />
@@ -75,7 +75,7 @@ const Contact = () => {
         </Zoom>
         <Zoom duration={250} delay={500}>
           <a
-            href="/"
+            href="https://www.facebook.com/coteki243goma"
             className="h-[3rem] w-[3rem] rounded-[1.5rem] border border-blue-900 text-blue-900 flex items-center justify-center"
           >
             <FaFacebookF />
@@ -83,7 +83,7 @@ const Contact = () => {
         </Zoom>
         <Zoom delay={750} duration={250}>
           <a
-            href="/"
+            href="https://wa.me/243990867317?text=I want to work on a project with you"
             className="h-[3rem] w-[3rem] rounded-[1.5rem] border border-blue-900 text-blue-900 flex items-center justify-center text-[1.5rem]"
           >
             <FaWhatsapp />

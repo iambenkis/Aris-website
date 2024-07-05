@@ -37,15 +37,24 @@ const Navbar = () => {
   ]
   return (
     <nav className="w-full bg-neutral-100/75 backdrop-blur-md fixed top-0 left-0 flex justify-between px-2 md:px-[5rem] py-5 z-10">
-      <a
-        href="/"
-        className={`${
-          linksShown ? 'hidden' : 'flex'
-        } w-full text-2xl md:flex items-center text-blue-900 font-bold flex-row`}
-      >
-        <MdElectricalServices />
-        <span>COTEKI</span>
-      </a>
+      <div>
+        <a
+          href="/"
+          className={`${
+            linksShown ? 'hidden' : 'flex'
+          } w-full text-2xl md:flex items-center text-blue-900 font-bold flex-row relative`}
+        >
+          <MdElectricalServices />
+          <span>COTEKI</span>
+        </a>
+        <span
+          className={`${
+            linksShown ? 'text-white/0' : 'text-blue-700'
+          } w-full tracking-wider md:tracking-normal  text-[6px] md:text-[7px] absolute`}
+        >
+          COMITÉ DES TECHNICIENS DU KIVU
+        </span>
+      </div>
       <HamburgerMenu clickHandler={hamburgerClickHandler} shown={!linksShown} />
       <div
         className={`items-start w-full justify-between md:justify-end px-2 

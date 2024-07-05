@@ -8,7 +8,7 @@ const Footer = () => {
     { name: 'contact', href: '' },
   ]
   return (
-    <footer className="w-full bg-gray-400/50 px-20">
+    <footer className="w-full bg-gray-400/50 md:px-20 px-5">
       <div className="w-full p-2 flex flex-col py-10 justify-center items-center">
         <a
           href="/"
@@ -31,9 +31,11 @@ const Footer = () => {
         </ul>
       </div>
       <div className="w-full   pb-20">
-        <div className="w-full flex text-gray-400 font-link font-medium pt-5 justify-between border-t-[1px] border-gray-400/25">
-          <p className="">© 2023 COTEKI. All rights reserved.</p>
-          <p>Privacy Policy Terms & Conditions</p>
+        <div className="w-full flex flex-col md:flex-row text-gray-400 font-link font-medium pt-5 justify-between border-t-[1px] border-gray-400/25">
+          <p className="py-5  ">© 2023 COTEKI. Tous droits réservés.</p>
+          <p>
+            Politique de confidentialité & conditions générales d'utilisation
+          </p>
         </div>
       </div>
     </footer>
