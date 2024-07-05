@@ -48,8 +48,8 @@ export const SectionFooter = () => (
         </div>
       </div>
       <p className="mb-2 mt-20 pt-10 text-center text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
-        Avec Coteki, benkis l'excellence devient la norme, la satisfaction
-        devient la certitude.
+        Avec Coteki, l'excellence devient la norme, la satisfaction devient la
+        certitude.
       </p>
       <div className="flex mb-20 items-center justify-center">
         <a href="/services">
