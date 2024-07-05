@@ -1,37 +1,96 @@
-import { MdElectricalServices } from 'react-icons/md'
+import { useState } from 'react'
+import { MdClose, MdElectricalServices } from 'react-icons/md'
+
+const HamburgerMenu = ({ clickHandler, shown }) => {
+  return (
+    <button
+      className={`${shown ? 'flex' : 'hidden'} flex-col md:hidden`}
+      onClick={clickHandler}
+    >
+      <div className="h-[4px] w-[30px] rounded-[2px] bg-blue-gray-700  m-[1px]"></div>
+      <div className="h-[4px] w-[30px] rounded-[2px] bg-blue-gray-700  m-[1px]"></div>
+      <div className="h-[4px] w-[30px] rounded-[2px] bg-blue-gray-700  m-[1px]"></div>
+    </button>
+  )
+}
 
 const Navbar = () => {
+  const [linksShown, setLinksShown] = useState(false)
+
+  const hamburgerClickHandler = () => {
+    setLinksShown(true)
+  }
+
+  const linksClickHandler = () => {
+    setLinksShown(false)
+  }
+
+  const closeMenu = () => {
+    setLinksShown(false)
+  }
+
   const links = [
     { name: 'solutions', href: '/solutions' },
     { name: 'services', href: '/services' },
-    { name: 'A propos', href: '' },
-    { name: 'contact', href: '' },
+    { name: 'A propos', href: '/a_propos' },
+    { name: 'contact', href: '/contact' },
   ]
   return (
-    <nav className="w-full bg-neutral-100/75 backdrop-blur-md fixed top-0 left-0 flex justify-between px-[5rem] py-5 z-10">
-      <a
-        href="/"
-        className="w-full text-2xl flex items-center text-blue-900 font-bold flex-row"
+    <nav className="w-full bg-neutral-100/75 backdrop-blur-md fixed top-0 left-0 flex justify-between px-2 md:px-[5rem] py-5 z-10">
+      <div>
+        <a
+          href="/"
+          className={`${
+            linksShown ? 'hidden' : 'flex'
+          } w-full text-2xl md:flex items-center text-blue-900 font-bold flex-row relative`}
+        >
+          <MdElectricalServices />
+          <span>
+            <span className="">CO</span>
+            <span className="text-black">TE</span>
+            <span className="text-red-700">KI</span>
+          </span>
+        </a>
+        <span
+          className={`${
+            linksShown ? 'text-white/0' : 'text-blue-700'
+          } w-full tracking-wider md:tracking-normal  text-[6px] md:text-[7px] absolute`}
+        >
+          COMITÉ DES TECHNICIENS DU KIVU
+        </span>
+      </div>
+      <HamburgerMenu clickHandler={hamburgerClickHandler} shown={!linksShown} />
+      <div
+        className={`items-start w-full justify-between md:justify-end px-2 
+        ${linksShown ? ' flex' : 'hidden md:flex'}
+        `}
       >
-        <MdElectricalServices />
-        <span>COTEKI</span>
-      </a>
-      <ul className="flex w-[50%] justify-between">
-        {links.map((link, index) => (
-          <li>
-            <a
-              href={`${link.href}`}
-              className={`text-blue-900 uppercase text-xs font-link ${
-                link.name === 'contact'
-                  ? 'bg-blue-900 text-white px-3 py-2 rounded-full border-[1px] border-red-900'
-                  : ''
-              }`}
-            >
-              {link.name}
-            </a>
-          </li>
-        ))}
-      </ul>
+        <ul
+          className={`flex flex-col md:flex md:flex-row w-[50%] gap-3 md:justify-between px-4`}
+        >
+          {links.map((link, index) => (
+            <li>
+              <a
+                href={`${link.href}`}
+                className={`text-blue-900 uppercase text-xs font-link ${
+                  link.name === 'contact'
+                    ? 'bg-blue-900 text-white px-3 py-2 rounded-full border-[1px] border-red-900'
+                    : ''
+                }`}
+                onClick={linksClickHandler}
+              >
+                {link.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+        <button
+          className={`h-[2.5rem] w-[2.5rem] border-blue-900 border-2 text-blue-900 flex items-center justify-center md:hidden`}
+          onClick={closeMenu}
+        >
+          <MdClose size={24} />
+        </button>
+      </div>
     </nav>
   )
 }

@@ -1,11 +1,8 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  Avatar,
-} from '@material-tailwind/react'
 import Carousel from './Carousel'
+
+/*
+
+//////// COMMENT START ICON FOR FUTURE USAGE
 
 function StarIcon() {
   return (
@@ -23,6 +20,7 @@ function StarIcon() {
     </svg>
   )
 }
+*/
 
 const Testimony = () => {
   const items = [
@@ -32,6 +30,8 @@ const Testimony = () => {
       testimony:
         "J'ai été extrêmement satisfait des services électriques fournis par cette entreprise. Leur équipe était compétente, efficace et professionnelle tout au long du processus.",
       rating: 5,
+      image:
+        'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
     },
     {
       rating: 3,
@@ -39,6 +39,8 @@ const Testimony = () => {
       job: 'Ingénieur Mécanique',
       testimony:
         "Je recommande vivement cette entreprise pour tous les services mécaniques. Ils ont fait preuve d'un haut niveau d'expertise et de dévouement, fournissant des résultats exceptionnels dans les délais promis.",
+      image:
+        'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
     },
     {
       name: 'Michel Dujardin',
@@ -46,6 +48,8 @@ const Testimony = () => {
       rating: 4,
       testimony:
         "J'ai été impressionné par la qualité des services de télécommunications offerts par cette entreprise. Leur souci du détail et leur engagement envers la satisfaction du client les distinguent vraiment dans l'industrie.",
+      image:
+        'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
     },
     {
       name: 'Sophie Leroy',
@@ -53,11 +57,13 @@ const Testimony = () => {
       rating: 5,
       testimony:
         "En tant que technicienne en installation d'antennes, j'ai collaboré avec cette entreprise sur plusieurs projets. La compétence technique et le professionnalisme de leur équipe ont systématiquement dépassé les attentes.",
+      image:
+        'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
     },
   ]
   return (
-    <div className="px-40 pb-10 relative">
-      <h2 className="px-20 font-[RegularNohemi]  text-[2.4rem] text-blue-900 text-center font-medium">
+    <div className=" p-1 md:px-40 pb-10 relative">
+      <h2 className="md:px-20 font-[RegularNohemi]  text-[2.4rem] text-blue-900 text-center font-medium">
         Ce que les gens disent de nous
       </h2>
       <p className="font-link text-center font-normal font-pop">

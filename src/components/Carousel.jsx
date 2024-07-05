@@ -25,19 +25,23 @@ function StarIcon() {
 }
 
 const Carousel = ({ items, autoSlide = false, autoSlideInterval = 3000 }) => {
-  const [activeIndex, setActiveIndex] = useState(0)
+  // const [activeIndex, setActiveIndex] = useState(0)
   const [curr, setCurr] = useState(0)
 
-  const prev = () => setCurr(curr === 0 ? items.length - 1 : curr - 1)
+  // const prev = () => setCurr(curr === 0 ? items.length - 1 : curr - 1)
 
   const next = () => setCurr(curr === items.length - 1 ? 0 : curr + 1)
 
   useEffect(() => {
     if (!autoSlide) return
+    // eslint-disable-next-line
     const slideInterval = setInterval(next, autoSlideInterval)
+    // eslint-disable-next-line
     console.log('slideInterval', slideInterval)
+    // eslint-disable-next-line
     return () => clearInterval(slideInterval)
-  }, [curr])
+    // eslint-disable-next-line
+  }, [curr, autoSlideInterval])
 
   return (
     <div className="flex w-full space-between overflow-hidden relative py-20">
@@ -47,7 +51,7 @@ const Carousel = ({ items, autoSlide = false, autoSlideInterval = 3000 }) => {
           className="flex w-full transition-transform duration-1000 ease-out "
           style={{ transform: `translateX(-${curr * 100}%)` }}
         >
-          <div className="px-40 w-screen">
+          <div className="md:px-40 w-screen">
             <Card
               color="transparent"
               shadow={false}
@@ -62,7 +66,7 @@ const Carousel = ({ items, autoSlide = false, autoSlideInterval = 3000 }) => {
                 <Avatar
                   size="lg"
                   variant="circular"
-                  src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                  src={`${item.image}`}
                   alt="tania andrew"
                 />
                 <div className="flex w-full flex-col gap-0.5">
