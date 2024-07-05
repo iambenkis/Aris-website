@@ -14,35 +14,37 @@ const WhySection = () => {
             <div className="grid columns-1  w-full gap-8 lg:flex lg:justify-between lg:items-center ">
               <div className="w-[90%] mx-auto md:w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
                 <h3 className="text-[1.5rem] font-[RegularNohemi] text-blue-900 font-medium">
-                  100% Satisfaction
+                  Simplification des projets électriques
                 </h3>
                 <p className="text-[1rem] text-gray-500 mt-3">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-                  illum, inventore et corrupti quas accusantium iste ullam
-                  reprehenderit quo eius odit vero exercitationem quos. Numquam
-                  eveniet harum accusantium, ratione soluta quidem r !
+                  Les projets électriques peuvent être complexes et
+                  chronophages. COTEKI vous permet de répondre aux besoins
+                  simplifiés de vos projets d\'électricité grâce à une
+                  planification et une exécution efficaces.
+                </p>
+              </div>
+              <div className="w-[90%] mx-auto md:w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
+                <h3 className="text-[1.5rem]  font-[RegularNohemi] text-blue-900 font-medium">
+                  Excellence dans l'orientation et la réalisation
+                </h3>
+                <p className="text-[1rem] text-gray-500 mt-3">
+                  Il est souvent difficile de garantir l\'excellence dans
+                  l\'orientation et la réalisation des projets. COTEKI assure
+                  l\'excellence dans l\'orientation, le dimensionnement et la
+                  réalisation de vos projets, vous offrant des solutions
+                  précises et de haute qualité.
                 </p>
               </div>
               <div className="w-[90%] mx-auto md:w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
                 <h3 className="text-[1.5rem] font-[RegularNohemi] text-blue-900 font-medium">
-                  100% Satisfaction
+                  Cohésion et respect des normes
                 </h3>
                 <p className="text-[1rem] text-gray-500 mt-3">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-                  illum, inventore et corrupti quas accusantium iste ullam
-                  reprehenderit quo eius odit vero exercitationem quos. Numquam
-                  eveniet harum accusantium, ratione soluta quidem r !
-                </p>
-              </div>
-              <div className="w-[90%] mx-auto md:w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
-                <h3 className="text-[1.5rem] font-[RegularNohemi] text-blue-900 font-medium">
-                  100% Satisfaction
-                </h3>
-                <p className="text-[1rem] text-gray-500 mt-3">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
-                  illum, inventore et corrupti quas accusantium iste ullam
-                  reprehenderit quo eius odit vero exercitationem quos. Numquam
-                  eveniet harum accusantium, ratione soluta quidem r !
+                  Les projets peuvent manquer de cohésion et ne pas respecter
+                  les normes technologiques. COTEKI réalise vos projets en
+                  assurant une bonne cohésion et en respectant les normes des
+                  nouvelles technologies, garantissant des résultats conformes
+                  et fiables.
                 </p>
               </div>
             </div>

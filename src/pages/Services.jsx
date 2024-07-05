@@ -6,19 +6,23 @@ import { Fade, Slide, Zoom } from 'react-awesome-reveal'
 const works = [
   {
     number: '01',
-    title: 'We aggregate data from 500M+ data points (that you can count on)',
+    title:
+      'Services électriques : Solutions fiables et professionnelles pour vos besoins',
   },
   {
     number: '02',
-    title: 'We aggregate data from 500M+ data points (that you can count on)',
+    title:
+      'Services télécom : Assurer des systèmes de communication robustes et sans faille',
   },
   {
     number: '03',
-    title: 'We aggregate data from 500M+ data points (that you can count on)',
+    title:
+      'Services mécaniques : Ingénierie de précision et maintenance pour des performances optimales',
   },
   {
     number: '04',
-    title: 'We aggregate data from 500M+ data points (that you can count on)',
+    title:
+      'Solutions intégrées : Support complet pour les projets électriques, télécoms et mécaniques',
   },
 ]
 
@@ -104,70 +108,59 @@ const Services = () => {
                 <div className="w-full md:w-[45%] md:mr-5">
                   <div className=" flex-col px-10 py-10 border-[1px] border-gray-800/25 flex md:mr-1 mb-5 rounded-xl">
                     <p className="text-xl"> ⏲</p>
-                    <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
-                      SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN
-                      ONE PLATFORM
+                    <h3 className="pt-5 uppercase text-blue-900 font-[RegularNohemi] font-medium  text-sm">
+                      Solutions robustes et fiables pour les environnements
+                      industriels
                     </h3>
                     <h4 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
-                      R&D and Innovation Teams
+                      Secteur Industiels
                     </h4>
                     <p className="leading-7 text-blue-800  py-5">
                       {' '}
-                      Say goodbye to siloed data and misaligned intelligence
-                      tools. With one search, visualize 500M+ data points from
-                      global patent activity, scientific literature, commercial
-                      players, market news, key opinion leaders, and more in our
-                      Innovation Dashboard, alongside specialized GPT-powered
-                      insights to help you quickly uncover unique trends within
-                      the data. Identify whitespace, ideate new concepts, and
-                      monitor important data points with ease. Search, discover,
-                      track, then repeat—all in one platform.
+                      Nos services répondent aux exigences des environnements
+                      industriels, garantissant productivité et sécurité. Nous
+                      proposons des solutions robustes et fiables pour les
+                      systèmes électriques, télécoms et mécaniques, assurant une
+                      performance optimale et une maintenance efficace pour les
+                      installations industrielles.
                     </p>
                   </div>
                   <div className=" flex-col px-10 py-10 border-[1px] border-gray-800/25 flex md:mr-1 mb-5 rounded-xl">
                     <p className="text-xl"> ⏲</p>
-                    <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
-                      SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN
-                      ONE PLATFORM
+                    <h3 className="pt-5 uppercase text-blue-900 font-[RegularNohemi] font-medium  text-sm">
+                      Optimisation de l'efficacité et de la performance des
+                      entreprises
                     </h3>
                     <h4 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
-                      R&D and Innovation Teams
+                      Entreprises commerciales
                     </h4>
                     <p className="leading-7 text-blue-800  py-5">
                       {' '}
-                      Say goodbye to siloed data and misaligned intelligence
-                      tools. With one search, visualize 500M+ data points from
-                      global patent activity, scientific literature, commercial
-                      players, market news, key opinion leaders, and more in our
-                      Innovation Dashboard, alongside specialized GPT-powered
-                      insights to help you quickly uncover unique trends within
-                      the data. Identify whitespace, ideate new concepts, and
-                      monitor important data points with ease. Search, discover,
-                      track, then repeat—all in one platform.
+                      Nous aidons les entreprises commerciales à maintenir des
+                      opérations fluides avec des systèmes électriques et de
+                      télécommunications fiables. Nos solutions sont conçues
+                      pour optimiser l\'efficacité et la performance, minimisant
+                      les temps d\'arrêt et maximisant la productivité.
                     </p>
                   </div>
                 </div>
 
                 <div className=" w-full md:w-[45%] px-10 flex flex-col  py-10 border-[1px] border-gray-800/25  mr-1 mb-5 rounded-xl">
                   <p className="text-xl"> ⏲</p>
-                  <h3 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-sm">
-                    SEARCH, DISCOVER AND BUILD COMPELLING BUSINESS CASES IN ONE
-                    PLATFORM
+                  <h3 className="pt-5 uppercase text-blue-900 font-[RegularNohemi] font-medium  text-sm">
+                    Sécurité et efficacité énergétique pour votre maison
                   </h3>
                   <h4 className="pt-5 text-blue-900 font-[RegularNohemi] font-medium  text-4xl">
-                    R&D and Innovation Teams
+                    Propriétaires résidentiels
                   </h4>
                   <p className="leading-7 text-blue-800  py-5">
                     {' '}
-                    Say goodbye to siloed data and misaligned intelligence
-                    tools. With one search, visualize 500M+ data points from
-                    global patent activity, scientific literature, commercial
-                    players, market news, key opinion leaders, and more in our
-                    Innovation Dashboard, alongside specialized GPT-powered
-                    insights to help you quickly uncover unique trends within
-                    the data. Identify whitespace, ideate new concepts, and
-                    monitor important data points with ease. Search, discover,
-                    track, then repeat—all in one platform.
+                    Nous offrons des solutions personnalisées pour les
+                    propriétaires résidentiels, assurant la sécurité et
+                    l\'efficacité énergétique de vos installations électriques.
+                    Nos services couvrent l\'installation, la mise à niveau et
+                    la maintenance, garantissant un environnement domestique sûr
+                    et fonctionnel.
                   </p>
                 </div>
               </div>
@@ -185,7 +178,8 @@ const Services = () => {
               <p> ⏲</p>
               <p className="ml-2">
                 {' '}
-                Turn 2 weeks worth of <br /> research into 15 minutes
+                Nos experts assurent une réalisation rapide <br /> de vos
+                projets pour respecter vos délais.
               </p>
             </div>
           </Zoom>
@@ -194,7 +188,8 @@ const Services = () => {
               <p> ⏲</p>
               <p className="ml-2">
                 {' '}
-                Turn 2 weeks worth of <br /> research into 15 minutes
+                Nous proposons des solutions rentables <br /> pour réduire vos
+                coûts avec une qualité garantie.
               </p>
             </div>
           </Zoom>
@@ -203,7 +198,8 @@ const Services = () => {
               <p> ⏲</p>
               <p className="ml-2">
                 {' '}
-                Turn 2 weeks worth of <br /> research into 15 minutes
+                Notre équipe est disponible 24/7 <br /> pour offrir un support
+                technique continu.
               </p>
             </div>
           </Zoom>
@@ -212,7 +208,8 @@ const Services = () => {
               <p> ⏲</p>
               <p className="ml-2">
                 {' '}
-                Turn 2 weeks worth of <br /> research into 15 minutes
+                Des solutions globales en électricité, télécoms
+                <br /> et mécanique pour une gestion de projet cohérente.
               </p>
             </div>
           </Zoom>

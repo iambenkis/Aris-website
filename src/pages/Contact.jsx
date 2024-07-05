@@ -7,14 +7,15 @@ const Contact = () => {
   return (
     <div className=" w-full h-full pt-[6rem]">
       <Fade>
-        <div className=" max-w-[900px] mx-auto p-6">
+        <div className="text-center max-w-[900px] mx-auto p-6">
           <h1 className=" text-4xl font-bold text-blue-900 mb-6">
             Contactez nous !
           </h1>
           <p>
             Contactez-nous dès maintenant pour des solutions électriques fiables
             et professionnelles. Remplissez le formulaire ci-dessous pour
-            obtenir nos services
+            obtenir nos services. Notre équipe d'experts est prête à répondre à
+            vos demandes et à offrir des solutions sur mesure.
           </p>
         </div>
       </Fade>
