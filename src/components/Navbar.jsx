@@ -45,7 +45,11 @@ const Navbar = () => {
           } w-full text-2xl md:flex items-center text-blue-900 font-bold flex-row relative`}
         >
           <MdElectricalServices />
-          <span>COTEKI</span>
+          <span>
+            <span className="">CO</span>
+            <span className="text-black">TE</span>
+            <span className="text-red-700">KI</span>
+          </span>
         </a>
         <span
           className={`${
