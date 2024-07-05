@@ -25,13 +25,12 @@ const WhySection = () => {
               </div>
               <div className="w-[90%] mx-auto md:w-[100%] lg:w-[30%] border-2 shadow-lg shadow-gray-500/50 bg-white rounded-2xl text-justify p-7">
                 <h3 className="text-[1.5rem]  font-[RegularNohemi] text-blue-900 font-medium">
-                  Excellence dans l'orientation et la réalisation
+                  Excellence dans l'orientation et réalisation
                 </h3>
                 <p className="text-[1rem] text-gray-500 mt-3">
-                  Il est souvent difficile de garantir l'excellence dans
-                  l'orientation et la réalisation des projets. COTEKI assure
-                  l'excellence dans l'orientation, le dimensionnement et la
-                  réalisation de vos projets, vous offrant des solutions
+                  Il est souvent difficile d'assurer l'excellence des projets.
+                  COTEKI garantit cette excellence dans l'orientation, le
+                  dimensionnement et la réalisation, offrant des solutions
                   précises et de haute qualité.
                 </p>
               </div>
@@ -40,11 +39,9 @@ const WhySection = () => {
                   Cohésion et respect des normes
                 </h3>
                 <p className="text-[1rem] text-gray-500 mt-3">
-                  Les projets peuvent manquer de cohésion et ne pas respecter
-                  les normes technologiques. COTEKI réalise vos projets en
-                  assurant une bonne cohésion et en respectant les normes des
-                  nouvelles technologies, garantissant des résultats conformes
-                  et fiables.
+                  Les projets manquent souvent de cohésion et de normes. COTEKI
+                  réalise vos projets en assurant la cohésion et le respect des
+                  normes technologiques, garantissant des résultats fiables.
                 </p>
               </div>
             </div>
